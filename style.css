@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    align-items: center;
+}
+
+.navbar {
+    background-color: white; 
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline; /* Menampilkan item menu secara horizontal */
+    margin-right: 20px; /* Ruang antara item menu */
+}
+
+.nav-list li a{ 
+    text-decoration: none; 
+    color: black;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline; 
+}
+
+.kotak-gambar {
+    width: 1340px;
+    height: 650px;
+    position: relative;
+    text-align: center;
+}
+
+.kotak-gambar img {
+    width: 100%;
+    height: 100%;
+    display: absolute;
+    margin: 0 auto;
+    text-align: center;
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+.kotak-tulisan {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: white;
+}
+
+.container {
+    padding: 40px;
+    justify-content: space-between;
+    background-color: #eeeeee;
+}
+
+.container2 {
+    padding: 40px;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+}
+
+.btnPutih {
+    background-color: white;
+    border-color: #D7212E;
+    color: #D7212E;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 41px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.btnMerah {
+    background-color: #D7212E;
+    border-color: #D7212E;
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 41px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.cari {
+    width: 786px;
+    height: 41px;
+    border-radius: 5px;
+    border-color: #C5BEBE;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.ikon {
+    width: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.katalog {
+    display: flex;
+}
+
+.card {
+    width: 237px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    
+}
+
+.card img {
+    max-width: 100%;
+    height: 237px;
+}
+
+.card-body p {
+    font-size: 16px;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #D7212E;
+    color: white;
+}
+
+form {
+    display: block;
+    padding: 50px;
+    border-radius: 0;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form > input {
+    padding: 10px;
+    margin: 10px;
+}
